@@ -1,0 +1,86 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("注册.jpg");
+    background-size: cover;
+    height:100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+#con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:350px;
+    padding: 40px;
+    background-color: rgba(252, 252, 252, 0.351);
+    border-radius: 50px;
+    box-shadow: 0 0 30px white;
+    box-shadow: 0 0 50px white;
+}
+
+#btn1{
+    background-color: rgb(233,170,201);
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width:30%;
+    height:3em;
+}
+
+#bs{
+    background-color: rgb(233,170,201);
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width:30%;
+    height:3em;
+}
+
+#btn1:hover{
+    background-color: rgb(98,84,119);;
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width:30%;
+    height:3em;
+}
+
+h2{
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: rgb(98,84,119);
+    text-shadow: 0 0 10px rgb(233,170,201);
+}
+
+input{
+    width:100%;
+    height:100%;
+    color:black;
+    margin: 10px;
+    background-color: rgba(252, 252, 252, 0.351);
+    padding: 20px;
+    font-size: 20px;
+}
+#fileb{
+    width:100%;
+    height:100%;
+    color:black;
+    margin: 10px;
+    background-color: rgba(252, 252, 252, 0.351);
+    padding: 20px;
+    font-size: 20px;
+}

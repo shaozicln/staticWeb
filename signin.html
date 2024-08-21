@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin界面</title>
+    <link rel="stylesheet" href="signin.css">
+    <script src="./signin.js"></script>
+</head>
+
+<body>
+    <div id="con" class="con">
+        <div id="con-signin">
+            <form action="#" class="form" id="form-in">
+                <h2 id="tit">登录</h2>
+                <input placeholder="请输入用户名" type="text" name="username" id="username"><br>
+                <input placeholder="请输入密码" type="password" name="password" id="password" onchange="codename">
+            </form>
+            <div>
+                <button id="btn登录" onclick="check()">登录</button>
+
+                <a href="./signup.html">
+                    <button id="btn注册">去注册</button>
+                </a>
+                <p id="forget"><a href="#">忘记密码?</a></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

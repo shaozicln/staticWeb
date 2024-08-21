@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:100%;
+    background: linear-gradient(45deg,rgb(233,112,64),rgb(172,215,201));
+    background-size: cover;
+}
+
+#container{
+    display:grid;
+    height:100%;
+    grid-template-rows: 7em auto 2em;
+    grid-template-columns: repeat(12,1fr);
+    gap:20px;
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+h2{
+    color:rgb(255, 255, 255);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:rgba(232, 167, 98, 0.881);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    grid-column: 1/13;
+    height:100%;
+    grid-row:1;
+    box-shadow:0 0 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(232, 167, 98, 0.881);
+    font-size: 20px;
+}
+a:hover{
+    color:rgb(255, 255, 255);
+}
+#left-container{
+    background-color: rgb(255, 255, 255,0.5);
+    grid-column:2/4;
+    grid-row: 2;
+    align-items: center;
+    justify-content: center;
+}
+#center-container{
+    background-color: rgb(255, 255, 255,0.5);
+    padding: 1em;
+    grid-column:4/12;
+    grid-row: 2;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height:2em;
+    background-color:rgba(172, 215, 201, 0.696);
+    grid-row:3;
+    grid-column:1/13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.art-card{
+    background-color:rgba(255, 255, 255, 0.51);
+    padding:10px;
+    border:1px solid rgb(13, 103, 214);
+    border-radius: 10px;
+    box-shadow: rgb(18, 155, 223) 0 3px 3px;
+    cursor:pointer;
+    margin-bottom: 1em;
+    overflow:auto;
+    height:300px;
+    display:block;
+    transition: width 2s,height 2s,background-color 2s,border-radius 2s,border 1s,box-shadow 1s;
+}
+
+.art-float1{
+    margin-right: 15px;
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+    padding:lem;
+}
+img{
+    width:180px;
+    height:115px;
+    transition: transform 1s;
+}
+img:hover{
+    width:300px;
+    height:200px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    border:5px solid rgb(255, 255, 255);
+    box-shadow: white 0 3px 3px;
+    transition: 1s;
+}
+
+.art-des{
+    font-size:16px;
+    color:grey;
+}
+.art-link{
+    font-size:14px;
+    color:rgb(7, 152, 201);
+}
+#tit{
+    margin: 30px;
+}
+
+h4{
+    color:rgba(9, 9, 9, 0.562);
+    font-size: 30px;
+}
